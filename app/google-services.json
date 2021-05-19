@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "855106818498",
+    "firebase_url": "https://kcinema-62fd5-default-rtdb.firebaseio.com",
+    "project_id": "kcinema-62fd5",
+    "storage_bucket": "kcinema-62fd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855106818498:android:3a428165a2850def92465b",
+        "android_client_info": {
+          "package_name": "com.example.kcinema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855106818498-ltbb74jv0hf3aohq7oage48l5f9vkoih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0II89lQF8RUnrgSK9TZyrTAx7i5VMDD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855106818498-ltbb74jv0hf3aohq7oage48l5f9vkoih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/catalogFragment">
+    <fragment
+        android:id="@+id/catalogFragment"
+        android:name="com.example.kcinema.fragment.CatalogFragment"
+        android:label="fragment_catalog"
+        tools:layout="@layout/fragment_catalog" >
+        <action
+            android:id="@+id/action_catalogFragment_to_contentFragment"
+            app:destination="@id/contentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.kcinema.fragment.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.kcinema.fragment.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_mapsFragment_to_contentFragment"
+            app:destination="@id/contentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contentFragment"
+        android:name="com.example.kcinema.fragment.ContentFragment"
+        android:label="fragment_content"
+        tools:layout="@layout/fragment_content" >
+        <action
+            android:id="@+id/action_contentFragment_to_catalogFragment"
+            app:destination="@id/catalogFragment" />
+    </fragment>
+</navigation>
